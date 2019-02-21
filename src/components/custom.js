@@ -4,7 +4,7 @@ export default function Custom() {
     return (
         <>
             <h1>hey</h1>
-            <p>laksdf</p>
+            <a href="http://test-ctd.readthedocs.io/">read our docs</a>
         </>
     )
 }
