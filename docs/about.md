@@ -28,3 +28,23 @@ Get inspired with guides based on our ready-made flow templates and common busin
 * set
 * forward
 ---
+
+##getListUi (beta)
+
+Use this wire adapter to get the records and metadata for a list view.
+
+Get list view records and metadata for a list view by API name
+
+*Syntax*
+
+---
+```import { LightningElement, wire } from 'lwc';
+import { getListUi } from 'lightning/uiListApi';
+import ACCOUNT_OBJECT from '@salesforce/schema/Account';
+
+export default class Example extends LightningElement {
+    @wire(getListUi, { objectApiName: ACCOUNT_OBJECT, listViewApiName: 'AllAccounts' })
+    propertyOrFunction;
+}```
+
+---
