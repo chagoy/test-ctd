@@ -4,9 +4,11 @@ project
 hi welcome 
 **********
 
-    `import project`
-    `#get your stuff documentation`
-    `project.do_stuff()`
+    ``const fn = (a, b) => {
+        if (a == b) {
+            console.log(a, b)
+        }
+    }``
 
 features
 ########
