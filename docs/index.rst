@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+$project
+========
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+$hi welcome 
 
-## Commands
+    import project
+    #get your stuff documentation
+    project.do_stuff()
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+features
+--------
 
-## Project layout
+- do cool things
+- do other stuff
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+installation 
+------------
+
+install $project by running
+
+    install project
+
