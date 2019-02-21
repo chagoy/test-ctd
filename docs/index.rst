@@ -4,9 +4,9 @@ project
 hi welcome 
 **********
 
-    import project
-    #get your stuff documentation
-    project.do_stuff()
+    `import project`
+    `#get your stuff documentation`
+    `project.do_stuff()`
 
 features
 ########
